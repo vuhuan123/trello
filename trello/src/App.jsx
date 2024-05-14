@@ -1,4 +1,5 @@
 import Button from '@mui/material/Button';
+import { Typography } from '@mui/material';
 
 function App() {
 
@@ -6,12 +7,13 @@ function App() {
   return (
 
     <>
-      Vu Pham
-      <Button variant="text">Text</Button>
+
+
+      <Button variant="text" color='secondary'>Text</Button>
       <Button variant="contained">Contained</Button>
       <Button variant="outlined">Outlined</Button>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -35,8 +35,8 @@ module.exports = {
     'no-multiple-empty-lines': 1,
     'space-before-blocks': ['error', 'always'],
     'object-curly-spacing': [1, 'always'],
-    'indent': ['warn', 2],
-    'semi': [1, 'never'],
+    'indent': ['', 2],
+    'semi': [1, 'always'],
     'quotes': ['error', 'single'],
     'array-bracket-spacing': 1,
     'linebreak-style': 0,
@@ -46,4 +46,4 @@ module.exports = {
     'comma-spacing': 1,
     'arrow-spacing': 1
   }
-}
+};
